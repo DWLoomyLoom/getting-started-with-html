@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Dan Drorbaugh</title>
+
+</head>
+
+<body>
+
+  <html>
+<head>
+<title>Stage 0: Getting Started with HTML</title>
+</head>
+<body>
+<h1><img src="http://i.imgur.com/fdGeWES.png" alt="Andy" title="">Anyone can Learn Any<img src="http://i.imgur.com/2puWIRg.png" alt="Steve Huffman" title="">thing with Our Awesome Guides!<img src="http://i.imgur.com/br29hUz.png" alt="" title=""></h1>
+	<p>
+	The first unit covers the basics of the <b>World Wide Web</b>: what it is, what it looks like and how the major pieces fit together. This includes discussions of the <b>Web, HTML, URLs, HTTP, and Web Applications</b>. <b>HTML</b> is the main document type on the Web. A <b>URL</b> is how you refer to documents on the Web. <b>HTTP</b> is the protocol which unites the Web that the Web runs on. The discussion of Web Applications, what they are and how they fit into the big picture will be the grand finale. This is what the course is about.
+	</p>
+	<p>
+	The <em>World Wide Web is a collection of HTML documents</em>. These documents are made up of <em>HTML which stands for Hypertext Markup Language</em>. This is the basis for almost every web page. Although there can be documents, video, images, all sorts of things on line, HTML is what glues everything together. The links between the pages, called <em>Hyperlinks or Links</em> for short, makes the Web web like.
+	</p>
+	<p>
+	The major pieces of the Web are you, your computer and browser, the Internet, and Servers. The browser makes requests to a server(s) via the Internet. These requests are made using a protocol called <b>HTTP (Hypertext Transfer Protocol)</b>. The server responds with files that your browser displays. Examples of browsers are Firefox, Safari, Chrome, Internet Explorer, and Opera. Servers are computers just like yours except they are optimized to sit in a closet and host files rather sit on a desk browsing files. The HTTP protocol is a simple one that the browser uses to communicate with servers. <em>HTTP is the main protocol of the web</em>. Servers are computers that host the files that make up the Web. The Internet is the worlds largest computer network. The industry standard picture of the Internet is a <a href="https://images.search.yahoo.com/images/view;_ylt=A86.JyHRsexUW1oA2PcnnIlQ;_ylu=X3oDMTB0aWRtNmFyBHNlYwNzYwRjb2xvA2dxMQR2dGlkA1lIUzAwMV8x?p=cloud&back=https%3A%2F%2Fsearch.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dcloud%2Bimages%26ei%3DUTF-8%26hsimp%3Dyhs-001%26hspart%3Dmozilla&w=1600&h=1067&imgurl=upload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F89%2FCumulus_cloud.jpg&size=165KB&name=Cumulus_cloud.jpg&rcurl=http%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACumulus_cloud.jpg&rurl=http%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACumulus_cloud.jpg&type=&no=6&tt=116&oid=1ee7a820151f937ab97ada56f97627d5&tit=Description+Cumulus+cloud.jpg&sigr=11otq3c1e&sigi=11t463tmu&sign=10hpu8164&sigt=103jo2o6k&sigb=12ogivmmu&fr=yhs-mozilla-001&hspart=mozilla&hsimp=yhs-001">cloud</a>. A Browser is a program that runs on your computer to display files found on the Web.
+	</p>
+	<p>
+	HTML documents are the heart of the web. The web is made up of a number of these documents that can do a number of things. An HTML document is made up of text content, what you see, Mark up, what the content looks like, references to other documents such as images and videos, and links to other pages. If one renders plain text in html, it looks the same. Plain text = plain text. However, if we want to make the text look different, we have to use markup, which is one of the facets of html. <em>HTML markup is made up of things called tags</em>. The syntax (structure) of a tag begins with the tag name, followed by the tag contents and ending with the tag name again.  The contents of a tag can be other tags or text. The first tag name is called the opening tag and the last tag name is called the closing tag. The tag name is bracketed by the greater than and less than symbols. The tag names are always the same and the only difference between the open and close is the close has a slash in front of the name. A synonym for tag is element. 
+	</p>
+	<p>
+	 The first tag we will learn about is the <b>b tag</b>. The syntax for this tag is opening tag b, the tag contents and closing tag b. <em>The result is that the contents inside the tag is bold</em>. The second tag is the <b>em tag</b>. Em stands for emphasis. <em>It italicizes the contents of the tag</em>. The syntax for this tag is opening tag em, the tag contents, and closing tag em. HTML tags can be nested. If we only provide an opening tag (for example using em tag) and do not provide the closing tag, all content after the opening tag will be italicized because the browser will not know where to stop. Many text editors will automatically generate closing tags so we will not forget the closing tag.
+	 </p>  
+	 <p>
+	 The next concept involves the use of <b>HTML attributes</b>. The syntax is opening tag Attribute Name=Value tag contents 	 closing tag. Attributes have a name and a value. In html5 attributes always equal a value. Tags can have multiple attributes. An example of a tag that has an attribute is the <b>anchor tag, the a tag</b>. A syntax example is opening tag a href= www.reddit.com derp closing tag. In this example, the attribute name is href, the attribute value is the url reddit, and the tag contents are derp. If the example rendered in html, we would just see the word derp which would render as a link to reddit.com. <em>Anchor tags are for making hyperlinks or links</em>. If change sentence to I am going to learn to love HTML, to incorporate the anchor tag, the syntax is I am going to learn to opening tag a href= www.w3c.org/html close opening tag HTML closing tag, HTML would be converted to a link that if clicked on would open the w3c site in a new window.
+	 </p>
+	 <p>
+	 The <b>image tag</b> is for <em>including images</em>. Structure of image tag is opening tag img src= url alt = text close tag. The attribute name is source. The attribute value is the url of the image to download. The image tag has a second attribute called alt which is short for alternate. The text value is what gets displayed if an image does not download. It is required in the sense that HTML parsers will complain if the text value is not there. Its purpose is for both broken requests and for blind people. It is a best practice to include it. <em>Images do not have closing tags</em>. All of the previous tags had closing tags. The structure above is the entire structure. There is no content to an image tag. The closing bracket above is called a <b>void tag</b>. <em>Void tags are ones that have no content</em>. Tags that have no content don’t need a closing tag. An example of syntax for a live image is opening tag img src=http colon slash slash www.udacity.com slash cs253x slash hipmunk dot png alt=hipmunk closing tag. Text can be included in addition to the image tag, for example: Hello! opening tag img src=http colon slash slash www.udacity.com slash cs253x slash hipmunk dot png alt= double quote hipmunk double quote closing tag and here is some more text. Images will appear in line with the text. 
+	 </p>
+	 <p><b>Whitespace</b>. When text is rendered on multiple lines in HTML, need to force the multiple lines to happen. In HTML <em>whitespace (new lines, tabs, and spaces)</em> all turn into a single space. Two tags are used to force multiple lines. The first tag is the <b>br tag</b>, which is <em>also a void tag</em>. The br is placed after the text where one wants to start a new line, for example This text is really too long br for one line. The words after the br tag will appear on a new line. 
+	 Can add multiple br tags to produce multiple breaks: 2 br tags = 2 line breaks. The second way to add a line break is to use the <b>p tag</b>. <em>p stands for paragraph and is not a void tag so the p tag will have content</em>. The text within each open and close p tag will render as separate paragraphs p this text is really p p too long for one line p.
+	 </p>
+	 <p><b>Inline vs Block</b>. The <b>br tag</b> is an <b>inline tag</b> and the <b>p tag</b> is a <b>block tag</b>. What the <em>br tag does is end a line</em> so when have structure of text br text, the br tag says to the browser is that the line ends at the tag and the new line begins after the tag. The p tag works differently. The <em>p tag makes an invisible box</em> when have HTML that looks as follows 
+	 p text p. An invisible box is created around the text. The invisible box can have height and width. Inline elements are just text. The difference between inline and block will come up a fair amount in the course. Important to know there is a distinction and each one has different behaviours. All elements/tags learned so far other than p tag are inline elements.
+	 </p>
+	 <p> <b>span and div Elements</b>. The next two elements tags are span and div. They are both normal elements. They can both have content. Only difference between two is <em>span is inline and div is block</em>. These elements don’t do anything other than contain their content. There is way to attach styles to them, to adjust different behaviours of how they display. Example in browser span this is one line of text span Yes, one line. The example above will print out on one line because the span tag is an inline element. If change example to a div, it prints out on 2 lines because the div is a block element and has an invisible box around it.
+	 </p>
+	 <p><b>Syntax Structure of an HTML Document</b>.Complete HTML document structure is as follows<br><br>
+!DOCTYPE html<br>	
+html<br>
+	head<br>
+		title TITLE! title<br>
+head<br>
+	body<br>	
+		CONTENT<br>
+	body<br>
+html<br><br>
+
+Above is what complete HTML doc structure looks like.<br><br>
+1.	DOCTYPE. Tells what kind of html this is (HTML5).<br>
+2.	Next tags are the open html tags. These tags surround the document. That is all they do is surround the document.<br>
+3.	head tag has metadata and other random stuff. If include JavaScript and CSS, those are included in the head section as well.<br>
+4.	Title is the title of the page. It appears in the top of the browser window or in the browser tab.<br>
+5.	Lastly, have the body tag. This is where the actual contents of the document appear. Most of the course is about generating content that sits in the body tag. All the interesting stuff sits in the body in the body tag.<br><br>
+
+Another view of HTML documents is a structure like this:<br><br>
+
+	head<br>
+		Title, CSS, JavaScript<br>
+	head<br>
+	body<br>
+		Contents<br>
+	body<br><br>
+The head tag contains the title, references to CSS files, and references to JavaScript files. <em>The body tag contains the actual contents of the document, the stuff you see on the screen. This course focuses on the body section</em>. 
+</p>
+</body>
+</html>
+
+</body>
+
+</html>
